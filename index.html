@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>POPSCENE 2012</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	* stretch and shrink the size of your browser window<BR>
+	** colors, background images, fonts can be modified<BR>
+	<div id="container">
+	
+		<div id="cover" class="item">
+			POPSCENE<BR>
+		</div>
+		
+		<div id="cover-page" class="item">
+			
+			<div id="textBottomRight">
+				PHOTOS BY MISHA<BR>
+			</div>
+		</div>
+		
+		<div id="popscene" class="item">
+			<B>ABOUT</B><BR>
+			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature.
+		</div>
+		
+		<div id="buy" class="item">
+		
+			<div id="buyMeLink" class="buyMe">
+				<a href="buy.html" class="buyMe">BUY ME</a>
+			</div>
+			
+		</div>
+		
+		<div id="5" class="item">
+			
+				Thank you to:<BR>
+				People<BR>
+				Places<BR>
+				Things<BR>
+			
+		</div>
+		
+		<div id="goodbye" class="item">
+			
+			<div id="textBottomRight2">
+				Goodbye,<BR>
+				<3 BUTCHERSHOP
+			</div>
+		</div>
+	
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="jquery.masonry.min.js"></script>
+	<script>
+	    $(function(){
+	  $('#container').masonry({ 
+	  
+	    // options
+	    itemSelector : '.item', //defines class of "item" for each block of content
+	    gutterWidth : 25,
+	  });
+	});
+</script>
+</body>
+</html>
