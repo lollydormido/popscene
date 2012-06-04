@@ -1,0 +1,82 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Arial, Verdana, Helvetica;
+}
+
+#container {
+	max-width: 825px;
+	margin: 50px auto;
+}
+
+.item {
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	float: left;
+	padding: 25px;
+	margin-bottom: 25px;
+	width: 200px;
+	height: 200px;
+	color: #000000;
+	background-color: #EDEDED;
+	font-size: 15px;
+	font-family: Arial, Verdana, Helvetica;
+}
+
+#cover {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#cover-page {
+	text-align: right;
+	vertical-align: text-bottom;
+	font-weight: bold;
+}
+
+#popscene {
+	font-size: 12px;
+	color: #FFFFFF;
+	background-image: url('rockshow.jpeg');
+	background-size: auto 250px;
+	overflow: hidden;
+}
+
+div #buy {
+	font-size: 15px;
+	width: 250px;
+	height: 250px;
+	color: #000000;
+	background-image: url('book.jpeg');
+	background-size: cover;
+	overflow: hidden;
+	padding: 0px;
+}
+
+div #goodbye {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#buyMeLink {
+	margin-top:80%;
+	text-align: right;
+}
+
+.buyMe a:link, .buyMe a:visited {
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 5px 30px 5px 5px;
+}
+
+#textBottomRight {
+	margin-top:90%;
+	text-align: right;
+}
+
+#textBottomRight2 {
+	margin-top:90%;
+	text-align: right;
+	font-weight: bold;
+}
