@@ -1,0 +1,122 @@
+body {
+	background-image: url('rockshow.jpeg');
+	background-size: cover;
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Verdana;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
+#header {
+	margin: 0 auto;
+	position: fixed;
+	top: 100px;
+	z-index: 2000;
+	width: 100%;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Georgia, Arial;
+	font-style: italic;
+	display: block;
+}
+
+#header #title {
+	font-size: 100px;
+	font-family: "Helvetica Neue Ultralight Italic", "HelveticaNeue-UltralightItalic", Arial;
+}
+
+#footer {
+	width: 100%;
+	height: 44px;
+	color: #FFFFFF;
+	position: fixed;
+	z-index: 2000;
+	bottom: 0px;
+	background-image: url('about-bg.png');
+	background-repeat: repeat;
+	box-shadow: 0px 0px 5px 0px #000000;
+	font-size: 12px;
+}
+
+#text {
+	float: right;
+	padding: 10px;
+}
+
+.navLinks {
+    background: #FF5C00 url(overlay.png) repeat-x;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    position: relative;
+    cursor: pointer
+}
+
+#nav {
+	top: 250px;
+	width: 100%;
+	text-align: center;
+	font-family: Arial, Verdana;
+	font-style: normal;
+	font-size: 25px;
+	position: absolute;
+}
+
+.panel{
+    min-width: 100%;
+    height: 98%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: -150%;
+    position: absolute;
+    background: #000;
+    box-shadow: 0px 4px 7px rgba(0,0,0,0.6);
+    z-index: 2;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+   }
+
+.panel:target{
+    margin-top: 0px;
+    background-color: #000000;
+}
+
+#buyContent {
+	margin: 250px auto;
+	width: 100%;
+	font-size: 50px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Georgia, Arial;
+	font-style: normal;
+}
+
+#aboutBook {
+	width: 50%;
+	margin: 0 auto;
+	font-size: 25px;
+	color: #FFFFFF;
+	text-shadow: 0px 1px 0px #EDEDED;
+}
+
+input {
+	font-size: 100%;
+}
