@@ -19,20 +19,23 @@ body {
 	color: #000000;
 	background-color: #EDEDED;
 	font-size: 15px;
-	font-family: Arial, Verdana, Helvetica;
 }
 
 #cover {
 	background-color: #000000;
 	color: #FFFFFF;
-	font-weight: bold;
 	font-size: 25px;
+	font-family: "Helvetica Neue Ultralight Italic", "HelveticaNeue-UltralightItalic", Arial;
 }
 
 #cover-page {
 	text-align: right;
 	vertical-align: text-bottom;
 	font-weight: bold;
+	font-style: italic;
+	color: #000000;
+	text-shadow: 0px 1px 1px #999;
+	font-family: Georgia, Arial;
 }
 
 #popscene {
@@ -43,7 +46,7 @@ body {
 	overflow: hidden;
 }
 
-div #buy {
+div #book {
 	font-size: 15px;
 	width: 250px;
 	height: 250px;
@@ -54,20 +57,42 @@ div #buy {
 	padding: 0px;
 }
 
-div #goodbye {
-	background-color: #000000;
-	color: #FFFFFF;
-}
-
-#buyMeLink {
-	margin-top:80%;
-	text-align: right;
+div #buy {
+	padding: 0px;
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
 }
 
 .buyMe a:link, .buyMe a:visited {
 	color: #FFFFFF;
 	background-color: #000000;
-	padding: 5px 30px 5px 5px;
+	text-align: center;
+	height: 250px;
+	width: 250px;
+	display: block;
+	border-radius: 15px;
+	font-size: 50px;
+	text-decoration: none;
+	font-family: "Helvetica Neue Ultralight Italic", "HelveticaNeue-UltralightItalic", Arial;
+
+
+}
+
+.buyMe a:hover {
+	color: #FFFFFF;
+	background-image: url('rockshow.jpeg');
+	background-size: cover;
+	height: 250px;
+	width: 250px;
+	display: block;
+	border-radius: 15px;
+
+}
+
+div #goodbye {
+	background-color: #000000;
+	color: #FFFFFF;
 }
 
 #textBottomRight {
@@ -78,5 +103,5 @@ div #goodbye {
 #textBottomRight2 {
 	margin-top:90%;
 	text-align: right;
-	font-weight: bold;
+	font-size: 12px;
 }
